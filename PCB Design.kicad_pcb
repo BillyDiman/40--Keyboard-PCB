@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 8)
     (tracks 0)
     (zones 0)
     (modules 112)
@@ -4014,7 +4014,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 6728A8B9)
-    (at 47.117 62.865 270)
+    (at 47.625 61.9125 270)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /6729A663)
@@ -4614,7 +4614,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 6728A771)
-    (at 35.433 66.929)
+    (at 35.433 65.88125)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /672ABAB9)
@@ -4650,7 +4650,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 6728A760)
-    (at 42.799 66.929 180)
+    (at 42.799 65.88125 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /672A8011)
@@ -4686,7 +4686,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 6728A74F)
-    (at 47.879 53.848 90)
+    (at 47.625 53.848 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /672A93B4)
@@ -4722,7 +4722,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 6728A73E)
-    (at 29.21 58.7525 90)
+    (at 30.1625 58.7525 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /672A9AD1)
@@ -4756,5 +4756,14 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_line (start 54.76875 31.75) (end 278.60625 31.75) (layer Edge.Cuts) (width 0.05) (tstamp 67294FAE))
+  (gr_line (start 52.3875 105.56875) (end 52.3875 34.13125) (layer Edge.Cuts) (width 0.05) (tstamp 67294FAD))
+  (gr_line (start 278.60625 107.95) (end 54.76875 107.95) (layer Edge.Cuts) (width 0.05) (tstamp 67294FAC))
+  (gr_line (start 280.9875 34.13125) (end 280.9875 105.56875) (layer Edge.Cuts) (width 0.05) (tstamp 67294FAB))
+  (gr_arc (start 54.76875 105.56875) (end 52.3875 105.56875) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 54.76875 34.13125) (end 54.76875 31.75) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 278.60625 105.56875) (end 278.60625 107.95) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 278.60625 34.13125) (end 280.9875 34.13125) (angle -90) (layer Edge.Cuts) (width 0.05))
 
 )
