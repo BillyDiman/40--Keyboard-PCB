@@ -2022,4 +2022,36 @@ Connection ~ 6200 3200
 Wire Wire Line
 	6200 4000 6900 4000
 Connection ~ 6200 4000
+Text GLabel 3300 4950 1    50   Input ~ 0
+col6
+Text GLabel 3100 4950 1    50   Input ~ 0
+row1
+Text GLabel 2300 4950 1    50   Input ~ 0
+row0
+Text GLabel 1900 4950 1    50   Input ~ 0
+col5
+Text GLabel 3200 4950 1    50   Input ~ 0
+col11
+Text GLabel 3400 4950 1    50   Input ~ 0
+col10
+Text GLabel 3500 4950 1    50   Input ~ 0
+col9
+Text GLabel 2000 4950 1    50   Input ~ 0
+col8
+Text GLabel 2100 4950 1    50   Input ~ 0
+col7
+Text GLabel 2500 4950 1    50   Input ~ 0
+row3
+Text GLabel 2600 4950 1    50   Input ~ 0
+row2
+Text GLabel 4000 4950 1    50   Input ~ 0
+col0
+Text GLabel 4100 4950 1    50   Input ~ 0
+col1
+Text GLabel 4200 4950 1    50   Input ~ 0
+col2
+Text GLabel 4300 4950 1    50   Input ~ 0
+col3
+Text GLabel 4400 4950 1    50   Input ~ 0
+col4
 $EndSCHEMATC
